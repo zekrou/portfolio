@@ -1,0 +1,73 @@
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; /* Adjust to 90% of the page width */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.about-me-left {
+    flex-basis: 30%; /* 30% width for personal info and skills */
+    padding: 20px;
+}
+
+.about-me-left h2 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5em; /* Smaller size than biography title */
+    text-align: left; /* Align title to the left */
+}
+
+.about-me-left h3 {
+    margin-top: 20px; /* Space above Main Skills */
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.3em; /* Smaller size for Main Skills */
+    text-align: left; /* Align title to the left */
+}
+
+.about-me-left ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent the list */
+}
+
+.about-me-left ul li {
+    margin-bottom: 5px;
+    font-size: 0.9em; /* Smaller font size for better fit */
+    color: #555;
+    text-align: left; /* Align text to the left */
+}
+
+.about-me-right {
+    flex-basis: 70%; /* 70% width for biography */
+    padding: 20px;
+}
+
+.biography-title {
+    font-size: 2.5em; /* Make the biography title bigger */
+    margin-bottom: 10px; /* Adjust margin to bring it closer to the text */
+    color: #333;
+    text-align: left; /* Align title to the left */
+    margin-top: -10px; /* Adjust this value to raise the title */
+}
+
+.about-me-right p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.about-me-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 48%; /* Adjust image size */
+    height: auto;
+    border-radius: 8px;
+}

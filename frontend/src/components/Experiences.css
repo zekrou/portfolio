@@ -1,0 +1,73 @@
+.experiences-container {
+    width: 90%; /* Adjust to your desired width */
+    margin: 0 auto; /* Center the content */
+    padding: 50px 0;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark color for the main title */
+    margin-bottom: 40px;
+}
+
+.experience-card {
+    background-color: #fff; /* White background for experience cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.experience-card h2 {
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 10px;
+    text-align: left; /* Align title to the left */
+}
+
+.experience-card h3 {
+    color: #555; /* Dark gray for job title */
+    margin-bottom: 5px;
+    text-align: left; /* Align job title to the left */
+}
+
+.experience-card h4 {
+    color: #777; /* Light gray for dates */
+    margin-bottom: 15px;
+    text-align: left; /* Align date to the left */
+}
+
+.experience-card ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent the list */
+}
+
+.experience-card ul li {
+    margin-bottom: 10px; /* Space between items */
+    color: #333; /* Dark text for list items */
+    text-align: left; /* Align list items to the left */
+}
+/* Experiences.css */
+
+.experience-title {
+    font-size: 2.5em; /* Larger title font */
+    color: #333; /* Dark color for text */
+    margin-bottom: 10px; /* Space below the title */
+    border-bottom: 2px solid #007bff; /* Blue border below the title */
+    padding-bottom: 10px; /* Padding for the title */
+}
+
+.experience-section {
+    margin: 20px 0; /* Space between sections */
+}
+
+.experience-job-title {
+    font-weight: bold; /* Bold job titles */
+    font-size: 1.2em; /* Slightly larger job title */
+    color: #007bff; /* Blue color for job titles */
+}
+
+.experience-details {
+    font-size: 1em; /* Standard font size for details */
+    color: #333; /* Dark text color for readability */
+}

@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #333; /* Change this to your desired color */
+    padding: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-around; /* Space between links */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Add hover effect */
+}
